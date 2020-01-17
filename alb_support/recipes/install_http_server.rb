@@ -16,8 +16,6 @@
 # language governing permissions and limitations under the License.
 #
 
-include_recipe 'nginx::repo'
-
 package "epel-release" do
   action :install
   only_if { node[:platform] == "centos" }
