@@ -23,5 +23,4 @@ end
 
 Chef::Log.info('007')
 
-include_recipe 'alb_support::attach_to_alb'
-Chef::Log.info('008')
+include_recipe 'alb_support::attach_to_alb
